@@ -5029,6 +5029,11 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+ngx-bootstrap-ci@^3.3.0-dev.20190314093201:
+  version "3.3.0-dev.20190314093201"
+  resolved "https://registry.yarnpkg.com/ngx-bootstrap-ci/-/ngx-bootstrap-ci-3.3.0-dev.20190314093201.tgz#7fd5b6862ca98991d18d3d4a9dc1d0d9dfc1a28d"
+  integrity sha512-uYmODyuAUV4alVSGksPZyM+WHu7o1R3hRFcRnhsDwn2Vo5EgICioi3gHRbPymYNhpqrWLXhOxC99hJDSYNdd6g==
+
 ngx-bootstrap@^8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-8.0.0.tgz#a1d222e626a1f5e13acdaafd754bb18874a1d561"
