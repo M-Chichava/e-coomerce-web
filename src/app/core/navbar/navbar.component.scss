@@ -10,3 +10,27 @@
     top: -12px;
     right: 32px;
 }
+
+a {
+    text-decoration: none;
+    color: #343a40;
+
+    &.active{
+        color:#ce0707; 
+        background-color: #fff1f1; 
+        border-radius: 5%;
+    }
+
+}   
+
+img {
+    cursor: pointer;
+}
+
+a:hover{
+    color:#ce0707;  
+    background-color: #fdf6f7;
+    border-radius: 5%;
+}
+
+  
