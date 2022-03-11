@@ -4,22 +4,25 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { HomeModule } from './home/home.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HttpClientModule } from '@angular/common/http';   
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http'; 
+import { ErrorInterceptor } from './core/interceptors/error.interceptor';  
 import { CoreModule } from './core/core.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
-  imports: [
-    BrowserModule,
+  imports: [ 
+  BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
     CoreModule, 
     HomeModule
   ],
-  providers: [],
+  providers: [
+    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

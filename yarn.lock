@@ -5041,6 +5041,13 @@ ngx-bootstrap@^8.0.0:
   dependencies:
     tslib "^2.0.0"
 
+ngx-toastr@^14.2.2:
+  version "14.2.2"
+  resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-14.2.2.tgz#19a144e96a18523d8a196c2aab2e319ff762bf16"
+  integrity sha512-/Ajr9E0llr51Zij8WgnxQpe7a5JK+k1n07/uWJcQ112OBH0GCktHi8M8QfGvw5Ih67hG8iowrT+aHXHS49gZcQ==
+  dependencies:
+    tslib "^2.3.0"
+
 nice-napi@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/nice-napi/-/nice-napi-1.0.2.tgz#dc0ab5a1eac20ce548802fc5686eaa6bc654927b"

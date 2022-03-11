@@ -9,7 +9,8 @@ import { environment } from './../../../environments/environment';
 })
 export class TestErrorComponent implements OnInit {
 
-  apiUrl = environment.apiUrl
+  apiUrl = environment.apiUrl;
+  validationErrors: any;
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
@@ -42,7 +43,8 @@ export class TestErrorComponent implements OnInit {
     this.http.get(this.apiUrl + 'products/fortytwo').subscribe(response => {
       console.log(response)
     }, error => {
-      console.log(error)
+      console.log(error);
+      this.validationErrors = error.errors;
     })
   }
 }
